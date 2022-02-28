@@ -1,0 +1,19 @@
+//Exemplo de Função fora de uma Função
+
+funcao(p1, p2){
+    //10s -> p1 As 3 sentenças dependem do parametro 1 e demora 10s p/ processar
+    sentenca #1
+    sentenca #2
+    sentenca #3
+
+    //1s -> p2 //As 2 sentenças dependem do parametro 2 e demora 1s p/ processar
+    sentenca #4
+    sentenca #5
+}
+
+funcao(3, 17) //11s p/ processar
+funcao(3, 39) //11s p/ processar
+funcao(3, 92) //11s p/ processar
+
+Total: 33s p/ processar
+//Aqui processa todos os parametros
